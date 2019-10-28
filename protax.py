@@ -36,6 +36,8 @@ from timeit import default_timer as timer
 from docopt import docopt
 
 import numpy as np
+import matplotlib as mat
+mat.use("agg")
 import matplotlib.pyplot as plt
 #import matplotlib 
 import seaborn as sns
